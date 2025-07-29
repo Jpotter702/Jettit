@@ -52,6 +52,7 @@ export const getJobStatus = async (jobId: string): Promise<JobStatus> => {
 }
 
 export const getCollectedData = async (params?: {
+  job_id?: string
   subreddit?: string
   limit?: number
   offset?: number

@@ -35,7 +35,7 @@ const Results: React.FC = () => {
         if (status.status === 'completed') {
           setDataLoading(true)
           try {
-            const resultData = await getCollectedData(jobId)
+            const resultData = await getCollectedData({ job_id: jobId })
             setData(resultData.data || [])
           } catch (err) {
             setError(err instanceof Error ? err.message : 'Failed to fetch data')

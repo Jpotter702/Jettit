@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Results from './pages/Results'
@@ -23,7 +23,7 @@ function App() {
     setLoading(false)
   }, [])
 
-  const handleLogin = (token: string, userData: any) => {
+  const handleLogin = (_token: string, userData: any) => {
     setIsAuthenticated(true)
     setUser(userData)
   }

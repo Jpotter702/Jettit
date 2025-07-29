@@ -123,6 +123,7 @@ async def get_job_status(job_id: str):
 
 @app.get("/data")
 async def get_collected_data(
+    job_id: Optional[str] = None,
     subreddit: Optional[str] = None,
     limit: int = 50,
     offset: int = 0
@@ -133,6 +134,7 @@ async def get_collected_data(
     try:
         # Call the placeholder service for data retrieval
         result = await reddit_collector.get_collected_data(
+            job_id=job_id,
             subreddit=subreddit,
             limit=limit,
             offset=offset

@@ -7180,6 +7180,18 @@ Final Phase
 
 _**Assistant**_
 
+*You've hit your free requests limit. [Upgrade to Pro](https://www.cursor.com/api/auth/checkoutDeepControl?tier=pro) for more usage, frontier models, Background Agents, and more. Your usage limits will reset when your monthly cycle ends on 8/17/2025.*
+
+---
+
+_**User**_
+
+final phase
+
+---
+
+_**Assistant**_
+
 
 
 ---

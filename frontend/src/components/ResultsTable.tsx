@@ -197,6 +197,3 @@ const ResultsTable: React.FC<ResultsTableProps> = ({ data }) => {
 }
 
 export default ResultsTable
-```
-
-```

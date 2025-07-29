@@ -24,7 +24,7 @@ const Auth: React.FC<AuthProps> = ({ onLogin }) => {
     navigate('/')
   }
 
-  const handleRegister = (user: any) => {
+  const handleRegister = (_user: any) => {
     // After successful registration, switch to login
     setIsLogin(true)
   }
