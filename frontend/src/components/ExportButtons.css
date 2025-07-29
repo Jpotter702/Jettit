@@ -1,0 +1,38 @@
+.export-buttons {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .export-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  
+  .export-btn.csv {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .export-btn.csv:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
+  .export-btn.json {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .export-btn.json:hover:not(:disabled) {
+    background-
